@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".ui.productDetail.ProductDetailActivity">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avatar"
+        android:layout_width="173dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="108dp"
+        android:background="@color/blue"
+        android:contentDescription="@string/gambar_avatar" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/avatar"
+        android:layout_centerHorizontal="true"
+        android:text="@string/username" />
+
+
+    <TextView
+        android:id="@+id/price"
+        style="@style/TextContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/avatar"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/price" />
+
+    <TextView
+        android:id="@+id/dimension"
+        style="@style/TextContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/avatar"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/dimension" />
+
+        <TextView
+            android:id="@+id/priceUnit"
+            style="@style/TextContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="116dp"
+            android:text="@string/priceunit"
+            android:layout_below="@id/avatar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/avatar" />
+
+
+    <TextView
+        android:id="@+id/vPrice"
+        style="@style/TextContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/avatar"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/price"
+        android:text="@string/textview" />
+
+    <Button
+        android:id="@+id/btn_checkout"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/avatar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/blue"
+        android:text="@string/buy"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/vDimension"
+        style="@style/TextContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/avatar"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="75dp"
+        android:layout_toEndOf="@id/dimension"
+        android:text="@string/textview" />
+
+    <TextView
+        android:id="@+id/vPriceUnit"
+        style="@style/TextContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/avatar"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="116dp"
+        android:layout_toEndOf="@id/priceUnit"
+        android:text="@string/textview" />
+
+
+
+
+
+
+</RelativeLayout>

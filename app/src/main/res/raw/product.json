@@ -1,0 +1,26 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "productCode": "SKUSKILNP",
+      "productName": "GIV BIRU",
+      "price": 11000,
+      "currency": "IDR",
+      "discount": "10%",
+      "dimension": "13 cm x 10 cm",
+      "unit": "PCS"
+    },
+
+    {
+      "id": 1,
+      "productCode": "SKUSKILNP",
+      "productName": "SO KLIN",
+      "price": 15000,
+      "currency": "IDR",
+      "discount": "10%",
+      "dimension": "13 cm x 10 cm",
+      "unit": "PCS"
+    }
+
+  ]
+}

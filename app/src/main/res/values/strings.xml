@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Interview1</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="avatar">avatar</string>
+    <string name="buy">Buy</string>
+    <string name="gambar_avatar">gambar_avatar</string>
+    <string name="textview">value</string>
+    <string name="checkout">Checkout</string>
+    <string name="dimension">Dimension</string>
+    <string name="price">Price</string>
+    <string name="priceunit">PriceUnit</string>
+    <string name="confirm">Confirm</string>
+    <string name="checkout2">CHECKOUT</string>
+    <string name="total">Total:</string>
+    <string-array name="productName">
+        <item>Giv Biru</item>
+        <item>So Klin</item>
+
+    </string-array>
+
+
+    <string-array name="price">
+        <item>11000</item>
+        <item>15000</item>
+
+    </string-array>
+
+    <string-array name="dimension">
+        <item>13 cm x 10 cm</item>
+        <item>13 cm x 10 cm</item>
+
+    </string-array>
+
+    <string-array name="unit">
+        <item>PCS</item>
+        <item>PCS</item>
+
+    </string-array>
+</resources>
